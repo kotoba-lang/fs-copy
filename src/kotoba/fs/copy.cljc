@@ -5,7 +5,8 @@
   here is the DEFINITION, and this repo's deps.edn names exactly the
   definitions it reaches -- nothing else.
 "
-  (:require [kotoba.fs.filesystem :refer [Filesystem delete exists? list read read-bytes write write-bytes]])
+  (:require [kotoba.lang.text :as str]
+            [kotoba.fs.filesystem :refer [Filesystem delete exists? list read read-bytes write write-bytes]])
   #?(:clj  (:require [kotoba.lang.text :as str])
      :cljs (:require [kotoba.lang.text :as str])))
 
