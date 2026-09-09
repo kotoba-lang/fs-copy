@@ -2,4 +2,4 @@
 
 `kotoba.fs.copy/copy`
 
-One definition. Reaches kotoba.fs.ifilesystem.
+One definition. Reaches kotoba.fs.filesystem.

@@ -1,8 +1,8 @@
 {:paths ["src"]
  :deps {
-        io.github.kotoba-lang/fs-ifilesystem
-        {:git/url "https://github.com/kotoba-lang/fs-ifilesystem.git"
-         :git/sha "86c46518b60ff14af1001c4a2ced210608fb40c7"}}
+        io.github.kotoba-lang/fs-filesystem
+        {:git/url "https://github.com/kotoba-lang/fs-filesystem.git"
+         :git/sha "118225c40d5f9f21ed517773c4faff1dc9a012e2"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
